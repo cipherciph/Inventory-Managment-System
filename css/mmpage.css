@@ -1,0 +1,280 @@
+
+
+body{
+	margin:0px;
+	padding:0px;	
+}
+.container-fluid{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+/*.navbar{
+	margin:0px;
+	padding:0px;
+}*/
+.firstImg{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+.clrPara{
+	margin:0px;
+	padding:0px;
+	background-color:white;
+}
+.headimg{
+	width:100%;
+	height:250px;
+}
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+.panel{
+	margin-top:-55px;
+}
+.head{
+	padding-top:45px;
+	padding-left:45px;
+	background-color:rgb(255, 153, 0) ;
+	height:150px;!important
+	}
+.firstPara{
+		margin:5px;
+		padding:5px;
+		text-align:justify;
+		font-family:"Century Gothic";
+		font-size:13px;
+		color:rgb(255, 153, 0);
+		height:140px;!important
+
+	}
+	.firstPara img{
+		margin:3px;
+		float:left;
+		height:90px;
+		width:70px;
+	}
+	
+	.hotelimg{
+		margin:0px;
+		padding:0px;
+	}
+	.hotelimg img{
+		margin:0px;
+		padding:0px;
+		width:100%;!important
+		height:300px;!important
+	}
+	.btn1{
+    background-color: rgb(255, 153, 0); 
+    border: none;
+    color: white;
+    padding:7px 6px 7px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 4px;
+    cursor: pointer;
+	}
+	.btn1:hover{
+		color:white;	
+	}
+	
+	.icons {
+		margin:5px;
+		font-size:24px;
+		color:rgb(255, 153, 0);	
+	}
+	
+	.detailedPara img{
+		margin:2px;
+		float:left;
+		height:70px;
+		width:50px;
+	}
+	.detailedPara{
+		margin:0px;
+		padding:6px;
+		text-align:justify;
+		font-family:"Century Gothic";
+		font-size:14px;	
+	}
+	
+	.col-4Style{
+		margin:0px;
+		padding:0px;
+		width: 32%;
+	}
+	.col-4Style img{
+		height:110px;
+	}
+	
+	@media (max-width: 575px){
+		.firstRow{
+			margin:0px;
+			padding:0px;
+			width:100%;
+		}
+		.maincol{
+			margin:0px;
+			padding:0px;
+		}
+		.panel{
+				margin:0px;
+				padding:0px;
+				width:222%;
+				/*background-color:#666666;*/
+			}
+			.head{
+				padding-top:5px;
+				float:left;
+				width:100%;
+				height:70px;!important
+				text-align:center;
+			}
+			.firstPara img{
+				margin:0px;
+				padding:0px;
+				}
+				
+			.clrPara{
+				margin:5px;
+				padding-right:20px;
+				height:72px;
+			}
+			.firstPara{
+				margin:5px;!important
+				/*padding:10px;!important*/
+				padding-right:25px;!important
+				float:left;
+				width:160%;
+				font-size:13px;
+				/*height:65px;!important*/
+				
+			}
+			.hotelimg{
+				margin-top:60px;
+				margin-left:5px;
+				margin-right:15px;
+				padding:5px;
+				width:95%;
+			}
+			.hotelimg img{
+				/*margin-top:160px;
+				margin-left:-155px;*/
+				float:left;
+				width:90%;
+				height:150px;!important
+			}
+			.online-btns
+			{
+				margin-top:10px;
+				margin-left:-5px;
+				margin-right:15px;
+				
+				
+				width:90%;
+			}
+			
+			.btn1{
+				margin:2px;
+				padding:5px;
+				width:79px;
+				font-size:11px;	
+			}
+			.htl-fa{
+				margin-top:10px;
+				margin-left:-20px;
+				float:left;
+				font-size:12px;
+			}
+			.stars{
+				margin-top:60px;
+				margin-left:-185px;
+				padding:0px;
+				float:left;
+				width:150px;
+			}
+			.detailedPara{
+				margin:5px;
+			margin-left:-20px;
+			padding-left:10%;
+			padding-right:10%;
+			width:255%;	
+			}
+			 .galRow{
+				 				margin:5px;
+								width:90%;
+
+				/*margin-top:5%;
+				margin-left:-5%;
+				float:left;
+				width:100%;*/
+								
+			}
+			.col-4Style{
+				float:left;
+			}
+			
+			
+		
+	}
+	@media (min-width: 576px) and (max-width: 767px) {
+		.panel{
+				margin:0px;
+				padding:0px;
+				width:210%;
+				/*background-color:#666666;*/
+			}
+		.firstPara{
+			padding-left:15px;
+	height:160px;
+}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.panel{
+				margin:0px;
+				padding:0px;
+				width:210%;
+/*				background-color:#666666;
+*/			}
+.firstPara{
+	height:160px;
+}
+
+	}
+	@media (min-width: 992px) and (max-width: 1200) {
+		.panel{
+				margin:0px;
+				padding:0px;
+				width:210%;
+/*				background-color:#666666;
+*/			}
+.firstPara{
+	height:160px;
+}
+
+
+	}
+	@media (min-width: 1824px) { 
+	
+	.panel{
+	margin-top:-55px;
+	/*background-color:#666666;*/
+}
+
+.hotelimg{
+	margin-top:5px;
+	margin-left:-320px;
+	float:left;
+}
+.online-btns{
+	margin-top:-130px;
+	float:right;
+	
+}
+	 }
